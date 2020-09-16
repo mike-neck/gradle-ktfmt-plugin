@@ -10,7 +10,7 @@ import kotlin.test.assertNotNull
 /**
  * A simple unit test for the 'org.mikeneck.ktfmt.greeting' plugin.
  */
-class GradleKtfmtPluginPluginTest {
+class GradleKtfmtPluginTest {
     @Test fun `plugin registers task`() {
         // Create a test project and apply the plugin
         val project = ProjectBuilder.builder().build()
